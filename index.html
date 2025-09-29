@@ -172,13 +172,26 @@
                 margin-top: -100px;
                 padding: 20px;
             }
+
+            /* STIJL VOOR HET AFBEELDINGSLOGO in de HEADER */
+        .logo img {
+            height: 40px; /* Pas deze hoogte aan naar wens */
+            width: auto;
+            display: block; /* Om eventuele witruimte te verwijderen */
+        }
+
+        /* Verwijder eventuele tekststijlen die de logo-afbeelding in de weg staan */
+        .logo {
+            font-size: 0; /* Zet de tekstgrootte op 0 om de oude tekststijl te negeren */
         }
     </style>
 </head>
 <body>
 
     <header>
-        <div class="logo">SNUGGLE<br>MOVIE</div>
+        <div class="logo">
+    <img src="images/favicon.png" alt="Snuggle Movie Logo">
+</div>
         <nav>
             <ul>
                 <li><a href="#">Menu item</a></li>
